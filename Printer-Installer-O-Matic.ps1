@@ -26,7 +26,7 @@ $iprinter.DriverName  = $DriverName
 $iprinter.PortName    = $PortName              
 $iprinter.DeviceID    = $caption              
 $iprinter.Put()        
-$iprinter.SetDefaultPrinter() 
+$iprinter.SetDefaultPrinter()  #Add printer as default
 }              
              
 PortInstall -PortName $PortName -PrinterIP $PrinterIP
