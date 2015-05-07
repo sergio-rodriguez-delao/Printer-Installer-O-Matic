@@ -16,6 +16,7 @@ $PPrinter.HostAddress    = $PrinterIP
 $PPrinter.PortNumber     = 9100              
 $PPrinter.Put()                         
 }   
+
 Function Printerinstall {              
 param ($caption,$PortName,$DriverName)               
               
